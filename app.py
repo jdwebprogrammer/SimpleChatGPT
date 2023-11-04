@@ -3,7 +3,7 @@ from ctransformers import AutoModelForCausalLM
 import gradio as gr
 
 
-model_name = "TheBloke/Llama-2-7B-32K-Instruct-GGUF"
+model_name = "TheBloke/Mistral-7B-OpenOrca-GGUF"
 llm = AutoModelForCausalLM.from_pretrained(model_name, model_type="llama")
 
 
